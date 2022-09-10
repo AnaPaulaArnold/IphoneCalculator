@@ -1,0 +1,43 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    background-color: black;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.right-line{
+    background-color: #FF9500;
+    color: white;
+}
+
+.numbers{
+    background-color: #505050;
+    color: white;
+}
+
+#numero-zero.numbers{
+    width: 150px;
+    text-align: left;
+    padding: 1em;
+}
+
+.result{
+    display: flex;
+    color:white;
+    justify-content: flex-end;
+    margin-right: 0.2em;
+    font-size: 3.5em;
+
+}
